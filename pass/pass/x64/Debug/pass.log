@@ -1,2 +1,8 @@
 ﻿  hello.cpp
-  pass.vcxproj -> C:\Users\user\Hello_c_world\repos\Programming2026Class-ACH\pass\x64\Debug\pass.exe
+C:\Users\user\Hello_c_world\repos\Programming2026Class-ACH\pass\pass\hello.cpp(10,8): error C2440: '초기화 중': 'int (__cdecl *)(int,int)'에서 'int'(으)로 변환할 수 없습니다.
+      C:\Users\user\Hello_c_world\repos\Programming2026Class-ACH\pass\pass\hello.cpp(10,8):
+      이 변환이 가능한 컨텍스트가 없습니다.
+  
+C:\Users\user\Hello_c_world\repos\Programming2026Class-ACH\pass\pass\hello.cpp(11,2): error C2065: 'a': 선언되지 않은 식별자입니다.
+C:\Users\user\Hello_c_world\repos\Programming2026Class-ACH\pass\pass\hello.cpp(11,9): error C2065: 'b': 선언되지 않은 식별자입니다.
+C:\Users\user\Hello_c_world\repos\Programming2026Class-ACH\pass\pass\hello.cpp(12,25): error C2065: 'result': 선언되지 않은 식별자입니다.
