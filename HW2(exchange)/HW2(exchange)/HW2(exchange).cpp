@@ -8,10 +8,12 @@ int main()
 	int discount;
 	printf("price:");
 	scanf_s("%d", &cost);
-	if (cost > 0);
+	if (cost > 0){
 	printf("qunatity:");
-	if (cost < 0);
+	}
+	else if (cost < 0){
 	return 0;
+	}
 	scanf_s("%d", &quantity);
 
 	money = (cost * quantity);
