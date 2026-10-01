@@ -1,0 +1,5 @@
+﻿  HW2(exchange).cpp
+C:\Users\user\Hello_c_world\repos\Programming2026Class-ACH\Project2\Project2\HW2(exchange).cpp(18,19): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Hello_c_world\repos\Programming2026Class-ACH\Project2\Project2\HW2(exchange).cpp(11,15): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+C:\Users\user\Hello_c_world\repos\Programming2026Class-ACH\Project2\Project2\HW2(exchange).cpp(13,15): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+  Project2.vcxproj -> C:\Users\user\Hello_c_world\repos\Programming2026Class-ACH\Project2\x64\Debug\Project2.exe
