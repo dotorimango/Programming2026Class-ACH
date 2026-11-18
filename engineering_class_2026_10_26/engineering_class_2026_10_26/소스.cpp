@@ -7,12 +7,25 @@ int get_Voltage()
 {
 	int Current;
 	int Resistance;
+	int value_1;
 
-	printf("Enter Current(A):\n");
+	printf("Enter Current(A):");
 	scanf_s("%d", &Current);
-	printf("Enter Resistance(ohm):\n");
+	if (Current <= 0)
+	{
+		printf("retry enter Current(A):");
+		scanf_s("%d", &Current);
+	}
+
+	printf("Enter Resistance(ohm):");
 	scanf_s("%d", &Resistance);
-	return 0;
+	if (Resistance <= 0)
+	{
+		printf("retry enter Resistance(ohm):");
+		scanf_s("%d", &Resistance);
+	}
+	value_1 = Current * Resistance;
+	return value_1;
 
 }
 
@@ -20,11 +33,24 @@ int get_Resistance()
 {
 	int voltage;
 	int Current;
+	int value_2;
 
-	printf("Enter voltage(V): \n");
+	printf("Enter voltage(V): ");
 	scanf_s("%d", &voltage);
-	printf("Enter Current(A): \n");
+	if (voltage <= 0)
+	{
+		printf("retry enter voltage(V): ");
+		scanf_s("%d", &voltage);
+	}
+
+	printf("Enter Current(A): ");
 	scanf_s("%d", &Current);
+	if (Current <= 0)
+	{
+		printf("retry enter Current(A): ");
+		scanf_s("%d", &Current);
+	}
+	value_2 = voltage / Current;
 	return 0;
 }
 
@@ -32,23 +58,24 @@ int get_Current()
 {
 	int voltage;
 	int Resistance;
+	int value_3;
 
-
-	printf("Enter voltage(V): \n");
+	printf("Enter voltage(V): ");
 	scanf_s("%d", &voltage);
 	if (voltage <= 0)
 	{
-		printf("retry enter voltage(V): \n");
+		printf("retry enter voltage(V): ");
 		scanf_s("%d", &voltage);
 	}
-	printf("Enter Resistance(ohm): \n");
+	printf("Enter Resistance(ohm): ");
 	scanf_s("d", &Resistance);
-	if ("Resistance <= 0")
+	if (Resistance <= 0)
 	{
-		printf("retry enter Resistance(ohm): \n");
+		printf("retry enter Resistance(ohm): ");
 		scanf_s("%d", &Resistance);
 	}
-	return 0;
+	 value_3 = voltage / Resistance;
+	return value_3;
 }
 
 
@@ -63,7 +90,7 @@ int main()
 	{
 	case 1:
 		get_Voltage();
-		printf("Voltage(V): %d", get_Voltage());
+		printf("Voltage(V): %d", value_1);
 		break;
 
 	case 2:
